@@ -48,3 +48,18 @@ hr{
 .task3 button{
   border: none;
 }
+
+
+/* TASK 4 */
+.task4{
+  width: 10%;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 4% auto 6%; 
+  border: 1px solid rgb(190, 188, 188);
+  box-shadow: 2px 2px 6px #888;
+  padding: 2% 0;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 5px;
+}
