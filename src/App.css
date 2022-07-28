@@ -1,7 +1,32 @@
+hr{
+  width: 80%;
+  margin: auto;
+}
+
+/* TASK1  */
 .task1{
-  width: 15%;
-  margin: 4% auto;
+  width: 10%;
+  margin: 4% auto 6%;
 }
 .task1 button{
-  padding: 4.5% 16%;
+  padding: 5.5% 20%;
+}
+
+/* TASK 2 */
+.task2{
+  width: 15%;
+  margin: 6% auto 4%;
+  /* border: 1px solid #eee; */
+  padding: 2% 3%;
+  text-align: center;
+}
+.task2 #counter{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+.task2 button{
+  margin: 2% 4%;
+  font-weight: 500;
+  font-size: 15px;
 }
