@@ -33,6 +33,7 @@ const Todo = () => {
             return item;
           }),
         ]);
+        setEditData(false);
       } else {
         setTodoList([
           ...todoList,
@@ -76,13 +77,26 @@ const Todo = () => {
     setTodoList(
       todoList.filter((item, index) => {
         if (event.currentTarget.id == index) {
-          item.status = "Complete"
-          return item
+          item.status = "Complete";
+          return item;
         }
         return item;
       })
     );
   };
+
+  const checkedComp = (event) => {
+    setTodoList(
+      todoList.filter((item, index) => {
+        if (event.currentTarget.id == index) {
+          item.status = "incomplete";
+          return item;
+        }
+        return item;
+      })
+    );
+  };
+
   console.log(todoList);
   return (
     <div className="container">
@@ -129,7 +143,7 @@ const Todo = () => {
         {todoList.map((item, index) => {
           return item.status == "Complete" ? (
             <li key={index}>
-              <input type="checkbox" checked />
+              <input type="checkbox" checked id={index} onClick={checkedComp} />
               <label>{item.data}</label>
               <input type="text" />
               <button className="edit" onClick={edit}>

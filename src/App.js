@@ -1,6 +1,6 @@
 import { MyProvider } from "./Context";
 import "./App.css";
-// import Todo from "./Components/Todo";
+import Todo from "./Components/Todo";
 import Task1 from "./Task1";
 import Task2 from "./Task2";
 import Task3 from "./Task3";
@@ -11,7 +11,7 @@ import Task7 from "./Task7";
 function App() {
   return (
     <div className="App">
-      <Task1 />
+      {/* <Task1 />
       <hr />
       <Task2 />
       <hr />
@@ -23,11 +23,11 @@ function App() {
       <hr />
       <Task6 />
       <hr />
-      <Task7 />
-      {/* 
+      <Task7 /> */}
+
       <MyProvider>
         <Todo />
-      </MyProvider> */}
+      </MyProvider>
     </div>
   );
 }
