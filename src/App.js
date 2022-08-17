@@ -6,6 +6,7 @@ import Task2 from "./Task2";
 import Task3 from "./Task3";
 import Task4 from "./Task4";
 import Task6 from "./Task6";
+import Task7 from "./Task7";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       </MyProvider>
       <hr />
       <Task6 />
+      <hr />
+      <Task7 />
       {/* 
       <MyProvider>
         <Todo />

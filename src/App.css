@@ -89,3 +89,11 @@ hr {
   font-weight: 500;
   font-size: 15px;
 }
+
+/* TASK 7  */
+.task7 {
+  width: 25%;
+  margin: 6% auto 4%;
+  padding: 2% 3%;
+  text-align: center;
+}
