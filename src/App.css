@@ -1,41 +1,46 @@
-hr{
+hr {
   width: 80%;
   margin: auto;
 }
 
 /* TASK1  */
-.task1{
-  width: 10%;
+.task1 {
+  width: 25%;
   margin: 4% auto 6%;
 }
-.task1 button{
+.task1 button {
   padding: 5.5% 20%;
+  cursor: pointer;
+  color: black;
 }
 
 /* TASK 2 */
-.task2{
-  width: 15%;
+.task2 {
+  width: 25%;
   margin: 6% auto 4%;
   padding: 2% 3%;
   text-align: center;
 }
-.task2 #counter{
+.task2 #counter {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 3%;
 }
-.task2 button{
+.task2 button {
+  cursor: pointer;
+  border: 1px solid black;
+  color: black;
   margin: 2% 4%;
   font-weight: 500;
   font-size: 15px;
 }
 
 /* TASK 3 */
-.task3{
+.task3 {
   width: 20%;
   margin: 6% auto 6%;
 }
-.time{
+.time {
   border: 1px solid rgb(190, 188, 188);
   box-shadow: 2px 2px 6px #888;
   text-align: center;
@@ -45,21 +50,42 @@ hr{
   border-radius: 5px;
   background-color: #eee;
 }
-.task3 button{
+.task3 button {
+  cursor: pointer;
   border: none;
 }
 
-
 /* TASK 4 */
-.task4{
+.task4 {
   width: 10%;
   font-weight: 600;
   font-size: 16px;
-  margin: 4% auto 6%; 
+  margin: 4% auto 6%;
   border: 1px solid rgb(190, 188, 188);
   box-shadow: 2px 2px 6px #888;
   padding: 2% 0;
   text-align: center;
   background-color: #eee;
   border-radius: 5px;
+}
+
+/* TASK6  */
+.task6 {
+  width: 25%;
+  margin: 6% auto 4%;
+  padding: 2% 3%;
+  text-align: center;
+}
+.task6 #counter {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+.task6 button {
+  cursor: pointer;
+  border: 1px solid black;
+  color: black;
+  margin: 2% 4%;
+  font-weight: 500;
+  font-size: 15px;
 }
